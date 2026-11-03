@@ -1,0 +1,5 @@
+---
+title: "Willingness to pay: measuring it before a sale, and what a self-designed good adds"
+---
+
+{{< include README.md >}}

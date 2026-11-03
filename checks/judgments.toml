@@ -11,3 +11,66 @@ path = "decisions"
 question = "2 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
 file = ""
 answer = "It stays: `decisions` is the folder the decision-record shape names for its records; it holds the README and record 0001 today, and grows one file per choice."
+
+[[answer]]
+check = "tree-shape"
+path = "checks/local"
+question = "2 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
+file = ""
+answer = "It stays: `checks/local` is the folder the extension contract names for a repository's own code, and it holds the program and its fixtures, which change together."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/willingness-to-pay/protocol.md"
+question = "98 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "521675957b50"
+answer = "Its role in one sentence: it records how the pool was built, from the strings to the stopping rule, so that a reader can run the search again; it has no 'and' to split on, and its tables are data, so it stays whole under `Protocol`."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/willingness-to-pay/README.md"
+question = "reads about equally as how-to and reference: one mode per document?"
+file = "86a2399fa7a2"
+answer = "One mode, reference: the `Files` table and the `Claims` table are for looking up, and the opening only says what the folder holds."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/willingness-to-pay/baseline.md"
+question = "reads about equally as how-to and reference: one mode per document?"
+file = "5aaf0b0c2546"
+answer = "One mode, reference: it names `B1` and compares it, and the numbered lines under the B1 heading describe the design rather than teach a procedure."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/willingness-to-pay/frame.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "2809727351a9"
+answer = "One mode, reference: it is a table of names, so a reader looks a term up, as the `What the field calls it` heading says."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/willingness-to-pay/state-of-the-art.md"
+question = "reads about equally as explanation and how-to: one mode per document?"
+file = "285017b51ac1"
+answer = "One mode, reference: each question has a table of records, best evidence apart from `Most adopted`, to look up."
+
+[[answer]]
+check = "name-content"
+path = "evidence/willingness-to-pay/state-of-the-art.md"
+question = "the name 'state' and the opening are far apart in meaning (0.06): does the name predict the content?"
+file = "285017b51ac1"
+answer = "Yes: the name is the review genre's name for step 3, `State of the art`, and the opening says what it holds, the best evidence per question; the low similarity comes from the short name."
+
+[[answer]]
+check = "section-cohesion"
+path = "evidence/willingness-to-pay/sources.md"
+question = "section 'Left out, with the reason' is far from every other section (0.24): a second role?"
+file = "3d2cdb24d2b5"
+answer = "No second role: `Left out, with the reason` is the closing section the sources shape asks for, listing what the pool did not keep."
+
+[[answer]]
+check = "document-mode"
+path = "AGENTS.md"
+question = "reads about equally as how-to and explanation: one mode per document?"
+file = "feec79fb8b3c"
+answer = "One mode, how-to: it tells a contributor what to do, as the `Before writing` heading and its numbered steps show, and the explanations in it only give the reason for a rule."

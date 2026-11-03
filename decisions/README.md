@@ -8,6 +8,7 @@ decision in one sentence under its title, then its status, context, decision and
 | Record | Summary |
 |---|---|
 | [0001 A repository of its own](0001-a-repository-of-its-own.md) | How a price is set and tested is one problem, so it is one repository, set up before any work on it |
+| [0002 Keep the name, and measure a stated range against a paid one](0002-keep-the-name-and-measure-a-stated-range-against-a-paid-one.md) | The name stays, and the first review's baseline is a stated range checked against a paid measure on the same good |
 
 ## See also
 
