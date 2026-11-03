@@ -7,9 +7,10 @@ How a price is set and tested: **willingness to pay** and how it is measured, pe
 
 This page in French: [README.fr.md](README.fr.md).
 
-> **Status (2026-11-04):** set up; nothing is written yet beyond the scope. The first job is a literature review, not
-> started. The name is provisional until that review's first step says what the field calls this. It is not an
-> official standard, not a peer-reviewed study and not a new result.
+> **Status (2026-11-04):** the first review is written, as a first pass of 39 sources, and ends on a named baseline,
+> B1. A program computes the Van Westendorp range and a Gabor-Granger curve from survey rows. The name is kept
+> after the frame step ([record 0002](decisions/0002-keep-the-name-and-measure-a-stated-range-against-a-paid-one.md)).
+> It is not an official standard, not a peer-reviewed study and not a new result.
 >
 > **How it is made:** with Claude, an AI assistant by Anthropic, under the maintainer's direction, the way
 > reader-ergonomics was made. Corrections are welcome as issues.
@@ -71,17 +72,29 @@ digraph where_it_sits {
 
 ## The first job: a literature review
 
-Not started. It follows the order of a thesis review, and it is finished when it can name the baseline.
+Done as a first pass on 2026-11-04, in the five steps of a thesis review: [evidence/willingness-to-pay](evidence/willingness-to-pay/README.md). It holds 39 sources, 30 formal and 9 grey, and most figures are read from abstracts and marked.
 
-1. **Frame:** the problem in one sentence, and what each field calls it. Leads to verify: willingness to pay in the industrial-organisation texts. The conjoint literature. The toolkit literature on self-design (Franke and Piller 2004; Franke, Schreier and Kaiser 2010; Franke and Hader 2014). Van Westendorp 1976 as a bounded range only. Behavioural pricing reviews. The repository may be renamed then.
-2. **Review:** each name, searched by its academic name, its acronym and its author; surveys first.
-   - each measure of willingness to pay, by its academic name, its acronym and its author, surveys first;
-   - stated and incentive-compatible measures compared on the same good, and the gap they leave;
-   - the self-design premium in the source, with how it was measured (contingent valuation, auctions);
-   - the law of personalised pricing in the places the maintainer sells in, found in the texts and not assumed.
-3. **State of the art, and the case against.**
-4. **Position:** what this repository asks that the field does not already answer.
-5. **Baseline:** a program for a willingness-to-pay estimate from survey data, compared with the incentive-compatible measure as the one that counts, and with Van Westendorp's range as the practice.
+## What the review found
+
+- **The field's name is willingness-to-pay measurement.** Its gap between a stated and a paid answer is the hypothetical bias. "Pricing" is wider, so the name matches in part and is kept.
+- **A stated answer overstates a paid one.** The mean overshoot is 21% for consumer goods over 77 studies (Schmidt 2020, secondary), and the median ratio is 1.35 over 83 observations (Murphy 2005). Indirect methods such as conjoint overstate more than direct questions. An auction did not reduce the bias much against a referendum vote (Penn 2018, secondary).
+- **The self-design premium is measured at +37% to +92% by students, and vanishes when the task is not finished.**
+  - In BDM bids by business students, the same T-shirt design was worth 44% more when designed than off the shelf, and a ski design 62% more (Franke 2010, read in full).
+  - It was +92% for a design that fitted taste and +37% for one that did not. More design freedom raised the bid for a watch face from 19.21 to 30.34 euros, and a person who bid on another design paid no premium.
+  - Watches showed about +100% by contingent valuation and Vickrey auctions (Franke 2004, secondary). The effect needs a finished task (Norton 2012, secondary).
+  - Conditions: students, goods under about 100 euros, bids in a classroom. No premium measured on buyers in a real sale was found.
+- **No study of a waiting list as evidence of demand was found.** The nearest evidence is stated purchase intention, which beat an extrapolation of past sales for existing products (Armstrong 2000). A sign-up that costs nothing is a stated intention at no price.
+- **Two prices for two people need disclosure in the EU.** A personalised price must be disclosed where applicable (EU 2019 Directive, Article 4). A solely automated decision with significant effect needs a contract, a law or explicit consent (EU 2016 GDPR, Article 22). The law of one member state was not read.
+
+## The baseline
+
+**B1** is a stated range checked against a paid measure on the same good ([baseline](evidence/willingness-to-pay/baseline.md)).
+
+- a sample answers the four Van Westendorp prices and a Gabor-Granger ladder, read by `checks/local/wtp_range.py`;
+- a second sample bids in BDM with a real draw, or pre-orders with a small deposit;
+- the hypothetical bias is reported as a ratio, and the paid figure is the one that counts.
+
+It lacks buyers in place of students, a second paid arm, and a study of the waiting list.
 
 ## Questions the review must answer
 
@@ -106,7 +119,9 @@ master also renders the site, [tewf.github.io/business-pricing](https://tewf.git
 
 | Part | Summary |
 |---|---|
+| [evidence](evidence/) | the first review, on willingness to pay: five steps, 39 sources, a named baseline |
 | [decisions](decisions/) | one record per choice that shapes this repository, each opening with the decision in one sentence |
+| [checks/local](checks/local/wtp_range.py) | a program for the Van Westendorp range and a Gabor-Granger curve, with tests |
 
 ## Licence
 

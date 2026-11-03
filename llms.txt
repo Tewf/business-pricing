@@ -1,12 +1,16 @@
 # Pricing
 
-> How a price is set and tested: willingness to pay and its measurement, price discrimination and personalised pricing with their law and ethics, anchors and reference prices, and a program that estimates willingness to pay from survey data. Scope only.
+> How a price is set and tested: willingness to pay and its measurement, price discrimination and personalised pricing with their law and ethics, anchors and reference prices, and a program that estimates willingness to pay from survey data. First review written: willingness-to-pay measurement, ending on the baseline B1.
 
 Each page's markdown source is served at the same path with a .md extension. This index is written by hand; AGENTS.md says to keep it in step.
 
 ## The repository
 
-- [Pricing](https://tewf.github.io/business-pricing/README.md): the scope, the first job and the questions its review must answer
+- [Pricing](https://tewf.github.io/business-pricing/README.md): the scope, what the first review found, the baseline B1 and the questions it answered
+- [Evidence](https://tewf.github.io/business-pricing/evidence/README.md): the first review, on willingness to pay, with the bibliography
+- [Willingness to pay](https://tewf.github.io/business-pricing/evidence/willingness-to-pay/README.md): 39 sources in five steps, with the claims table and the named baseline
+- [Baseline](https://tewf.github.io/business-pricing/evidence/willingness-to-pay/baseline.md): B1, a stated range checked against a paid measure on the same good
+- [Bibliography](https://tewf.github.io/business-pricing/evidence/bibliography.md): every work cited, once
 - [Decisions](https://tewf.github.io/business-pricing/decisions/README.md): one record per choice that shapes the repository
 
 ## Contributing

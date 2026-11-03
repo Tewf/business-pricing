@@ -7,9 +7,11 @@ Comment un prix se fixe et se teste : la **disposition à payer** et sa mesure, 
 
 Cette page en anglais : [README.md](README.md). Les deux versions suivent le même état.
 
-> **État (2026-11-04) :** mis en place ; rien n'est encore écrit au-delà du périmètre. Le premier travail est une revue
-> de littérature, non commencée. Le nom est provisoire jusqu'à ce que la première étape de cette revue dise comment le
-> domaine nomme la chose. Ce n'est ni une norme officielle, ni une étude relue par des pairs, ni un résultat nouveau.
+> **État (2026-11-04) :** la première revue est écrite, en première passe sur 39 sources, et se termine sur une
+> référence nommée, B1. Un programme calcule la fourchette de Van Westendorp et une courbe de Gabor-Granger à partir de
+> lignes d'enquête. Le nom est gardé après l'étape de cadrage
+> ([fiche 0002](decisions/0002-keep-the-name-and-measure-a-stated-range-against-a-paid-one.md)). Ce n'est ni une norme
+> officielle, ni une étude relue par des pairs, ni un résultat nouveau.
 >
 > **Comment il est fait :** avec Claude, un assistant IA d'Anthropic, sous la direction du mainteneur, comme
 > reader-ergonomics. Les corrections sont bienvenues sous forme d'issues.
@@ -71,17 +73,29 @@ digraph where_it_sits {
 
 ## Le premier travail : une revue de littérature
 
-Non commencée. Elle suit l'ordre d'une revue de thèse, et elle est finie quand elle peut nommer la référence.
+Fait en première passe le 2026-11-04, dans les cinq étapes d'une revue de thèse : [evidence/willingness-to-pay](evidence/willingness-to-pay/README.md) (en anglais). Elle compte 39 sources, 30 formelles et 9 grises, et la plupart des chiffres sont lus dans les résumés et marqués comme tels.
 
-1. **Cadrer :** le problème en une phrase, et comment chaque domaine le nomme. Pistes à vérifier : la disposition à payer dans les manuels d'économie industrielle. La littérature de l'analyse conjointe. La littérature des outils de conception par le client (Franke et Piller 2004 ; Franke, Schreier et Kaiser 2010 ; Franke et Hader 2014). Van Westendorp 1976 comme simple fourchette. Les synthèses de tarification comportementale. Le dépôt peut être renommé alors.
-2. **Revue :** chaque nom, cherché par son nom académique, son acronyme et son auteur ; les synthèses d'abord.
-   - chaque mesure de la disposition à payer, par son nom académique, son acronyme et son auteur, les synthèses d'abord ;
-   - les mesures déclarées et incitatives comparées sur le même bien, et l'écart qu'elles laissent ;
-   - la prime de la conception par soi-même dans la source, avec la manière dont elle a été mesurée (évaluation contingente, enchères) ;
-   - le droit du prix personnalisé là où le mainteneur vend, trouvé dans les textes et non supposé.
-3. **État de l'art, et le dossier contre.**
-4. **Positionnement :** ce que ce dépôt demande et que le domaine ne répond pas déjà.
-5. **Référence :** un programme d'estimation de la disposition à payer à partir de données d'enquête. Il est comparé à la mesure incitative, qui est celle qui compte, et à la fourchette de Van Westendorp, qui est la pratique.
+## Ce que la revue a trouvé
+
+- **Le domaine nomme cela la mesure de la disposition à payer** (willingness to pay). Son écart entre une réponse déclarée et une réponse payée est le biais hypothétique. « Fixation des prix » est plus large : le nom correspond en partie et reste.
+- **Une réponse déclarée surestime une réponse payée.** Le dépassement moyen est de 21 % pour les biens de consommation sur 77 études (Schmidt 2020, secondaire). Le rapport médian est de 1,35 sur 83 observations (Murphy 2005). Les méthodes indirectes comme l'analyse conjointe surestiment plus que les questions directes. Une enchère n'a guère réduit le biais face à un vote par référendum (Penn 2018, secondaire).
+- **La prime de conception par soi-même est mesurée entre +37 % et +92 % chez des étudiants, et disparaît quand la tâche n'est pas finie.**
+  - Dans des offres BDM d'étudiants en gestion, le même motif de T-shirt valait 44 % de plus conçu qu'en rayon, et un motif de ski 62 % de plus (Franke 2010, lu en entier).
+  - Elle était de +92 % pour un motif qui plaisait et de +37 % pour un autre. Plus de liberté de conception a fait passer l'offre pour un cadran de montre de 19,21 à 30,34 euros, et qui offrait sur un autre motif ne payait aucune prime.
+  - Les montres ont montré environ +100 % par évaluation contingente et enchères de Vickrey (Franke 2004, secondaire). L'effet demande une tâche terminée (Norton 2012, secondaire).
+  - Conditions : des étudiants, des biens de moins de 100 euros environ, des offres en salle de cours. Aucune prime mesurée sur de vrais acheteurs dans une vraie vente n'a été trouvée.
+- **Aucune étude d'une liste d'attente comme preuve de demande n'a été trouvée.** Le plus proche est l'intention d'achat déclarée, qui a battu une extrapolation des ventes passées pour des produits existants (Armstrong 2000). Une inscription gratuite est une intention déclarée sans prix.
+- **Deux prix pour deux personnes demandent une information dans l'UE.** Un prix personnalisé doit être signalé le cas échéant (EU 2019 Directive, article 4). Une décision fondée uniquement sur un traitement automatisé à effet important exige un contrat, une loi ou un consentement explicite (EU 2016 GDPR, article 22). Le droit d'un État membre n'a pas été lu.
+
+## La référence
+
+**B1** est une fourchette déclarée, vérifiée contre une mesure payée sur le même bien ([baseline](evidence/willingness-to-pay/baseline.md), en anglais).
+
+- un échantillon répond aux quatre prix de Van Westendorp et à une échelle de Gabor-Granger, lues par `checks/local/wtp_range.py` ;
+- un second échantillon fait une offre BDM avec un vrai tirage, ou précommande avec un petit acompte ;
+- le biais hypothétique est donné en rapport, et le chiffre payé est celui qui compte.
+
+Il manque de vrais acheteurs à la place des étudiants, un second bras payé, et une étude de la liste d'attente.
 
 ## Questions auxquelles la revue doit répondre
 
@@ -106,7 +120,9 @@ master construit aussi le site, [tewf.github.io/business-pricing](https://tewf.g
 
 | Partie | Résumé |
 |---|---|
+| [evidence](evidence/) | la première revue, sur la disposition à payer : cinq étapes, 39 sources, une référence nommée (en anglais) |
 | [decisions](decisions/) | une fiche par choix qui façonne ce dépôt, chacune ouvrant sur la décision en une phrase |
+| [checks/local](checks/local/wtp_range.py) | un programme pour la fourchette de Van Westendorp et une courbe de Gabor-Granger, avec ses tests |
 
 ## Licence
 
