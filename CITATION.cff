@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: >-
+  If this repository helps you, you may cite it as below. It is an informal,
+  work-in-progress synthesis of published research, written with Claude, an AI
+  assistant by Anthropic. It is not an official standard, not peer-reviewed,
+  and not a new result.
+title: "business-pricing (work in progress)"
+abstract: >-
+  How a price is set and tested: willingness to pay and its measurement, price discrimination and personalised pricing with their law and ethics, anchors and reference prices, and a program that estimates willingness to pay from survey data. Scope only.
+type: software
+authors:
+  - name: "Tewf"
+repository-code: "https://github.com/Tewf/business-pricing"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+keywords:
+  - pricing
+  - willingness to pay
+  - conjoint analysis
+  - personalised pricing
+  - behavioural pricing
+  - literature review

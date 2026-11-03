@@ -1,0 +1,15 @@
+# Pricing
+
+> How a price is set and tested: willingness to pay and its measurement, price discrimination and personalised pricing with their law and ethics, anchors and reference prices, and a program that estimates willingness to pay from survey data. Scope only.
+
+Each page's markdown source is served at the same path with a .md extension. This index is written by hand; AGENTS.md says to keep it in step.
+
+## The repository
+
+- [Pricing](https://tewf.github.io/business-pricing/README.md): the scope, the first job and the questions its review must answer
+- [Decisions](https://tewf.github.io/business-pricing/decisions/README.md): one record per choice that shapes the repository
+
+## Contributing
+
+- [Contributing](https://tewf.github.io/business-pricing/AGENTS.md): rules for changing this repository
+- [Standard](https://tewf.github.io/reader-ergonomics/standard.md): the reader-ergonomics card this repository obeys
