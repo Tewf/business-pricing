@@ -28,7 +28,7 @@ digraph measures {
   REAL [label=<<b>real purchase</b><br/><font point-size="11" color="#55575F">the benchmark</font>>, fillcolor="#E8EEF8", color="#2F5DA8"];
   OE -> REAL [label=" about 21% above on average,\nall stated methods (Schmidt 2020)", style=dashed];
   CBC -> REAL [label=" overstates more than\na direct question (Schmidt 2020)", style=dashed];
-  VW -> BDM [label=" comparable results\n(Kloss 2016)", style=dashed, constraint=false];
+  VW -> BDM [xlabel="comparable results\n(Kloss 2016)  ", style=dashed, constraint=false];
   GG -> REAL [label=" no paid comparison found", style=dashed];
   BDM -> REAL [label=" passes the tests\n(Miller 2011a)"];
   ICBC -> REAL [label=" passes the tests\n(Miller 2011a)"];
