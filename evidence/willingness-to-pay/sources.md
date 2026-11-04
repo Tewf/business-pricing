@@ -26,7 +26,7 @@
 | Penn 2018 | meta-analysis | F1 | measured; abstract, secondary | review 0, 1 |
 | Murphy 2005 | meta-analysis | F1, G3 | measured; working paper read in full | review 0, 1 |
 | List 2001 | meta-analysis | F1 | measured; located only | review 0 |
-| Miller 2011 | comparison with real purchases | F9 | measured; abstract, secondary | review 1 |
+| Miller 2011a | comparison with real purchases | F9 | measured; abstract, secondary | review 1 |
 | Voelckner 2006 | experiment | F5 | measured; located only | review 1 |
 | Lusk 2004 | experiment | F12 | measured; abstract, secondary | review 1 |
 | Kloss 2016 | comparison of methods | F2 | supported with caveat; abstract, secondary | review 1 |

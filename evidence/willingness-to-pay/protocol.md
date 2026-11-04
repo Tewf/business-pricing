@@ -81,7 +81,7 @@ The web searches returned a synthesis, not a list; their rows say `not recorded`
 | G1 | web search | "I designed it myself" effect, Franke Schreier Kaiser, full text | 20 links; found the author copy; read in full | not recorded |
 | G2 | web search | the watch-market toolkit study of 2004, full text | 10 links; the two repository copies sat behind a bot challenge, not read | not recorded |
 | G3 | web search | Murphy 2005 meta-analysis hypothetical bias, abstract | 20 links; found the working paper; read in full | not recorded |
-| G4 | web search | Miller 2011 willingness to pay results | 20 links; abstract only; the full text was not found | not recorded |
+| G4 | web search | Miller 2011a willingness to pay results | 20 links; abstract only; the full text was not found | not recorded |
 | G5 | web search | Voelckner 2006 comparison of methods | 10 links; abstract opening only | not recorded |
 | G6 | web search | Gabor Granger method, origin and use | 10 links; vendor pages; the origin as Gabor 1966 | not recorded |
 | G7 | web search | Morwitz 2007 purchase intentions | 10 links; summaries only; found Armstrong 2000, read | not recorded |

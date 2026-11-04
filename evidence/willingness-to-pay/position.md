@@ -8,7 +8,7 @@ Step 4 of the review. What is known, what was not found, and what this repositor
 
 - A stated willingness to pay overstates a paid one: by 21% on average for consumer goods (Schmidt 2020), by a median ratio of 1.35 (Murphy 2005).
 - Indirect methods do not beat direct ones on accuracy (Schmidt 2020).
-- BDM and incentive-aligned conjoint pass tests against real purchases; open-ended and conjoint answers may still rank prices well (Miller 2011).
+- BDM and incentive-aligned conjoint pass tests against real purchases; open-ended and conjoint answers may still rank prices well (Miller 2011a).
 - A self-designed good was bid up by 37% to 92% over the same good off the shelf, by students, in BDM (Franke 2010).
 - The premium is carried by a feeling of accomplishment, grows with the fit of the design and the freedom given, and needs a finished task (Franke 2010; Norton 2012).
 - The meter is hypothetical and biased, and its results were close to BDM in one comparison (Kloss 2016).

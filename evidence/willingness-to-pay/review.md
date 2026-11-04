@@ -30,8 +30,8 @@ digraph measures {
   CBC -> REAL [label=" overstates more than\na direct question (Schmidt 2020)", style=dashed];
   VW -> BDM [label=" comparable results\n(Kloss 2016)", style=dashed, constraint=false];
   GG -> REAL [label=" no paid comparison found", style=dashed];
-  BDM -> REAL [label=" passes the tests\n(Miller 2011)"];
-  ICBC -> REAL [label=" passes the tests\n(Miller 2011)"];
+  BDM -> REAL [label=" passes the tests\n(Miller 2011a)"];
+  ICBC -> REAL [label=" passes the tests\n(Miller 2011a)"];
 }
 ```
 
@@ -53,9 +53,9 @@ Orange is a stated answer, green a paid one and blue the benchmark. A dashed lin
 
 ## Strand 1: which measure predicts what people pay (Q1)
 
-- Four methods were compared on real purchase data: open-ended question, choice-based conjoint, BDM and incentive-aligned conjoint. BDM and incentive-aligned conjoint passed the statistical and decision tests (Miller 2011, abstract, secondary). Measured.
-- People were more price sensitive when the answer cost them something (Miller 2011, abstract, secondary). Measured.
-- Even where the open-ended and conjoint methods were biased, they might still give the right demand curve and the right pricing decision (Miller 2011, abstract, secondary). Measured.
+- Four methods were compared on real purchase data: open-ended question, choice-based conjoint, BDM and incentive-aligned conjoint. BDM and incentive-aligned conjoint passed the statistical and decision tests (Miller 2011a, abstract, secondary). Measured.
+- People were more price sensitive when the answer cost them something (Miller 2011a, abstract, secondary). Measured.
+- Even where the open-ended and conjoint methods were biased, they might still give the right demand curve and the right pricing decision (Miller 2011a, abstract, secondary). Measured.
 - In a choice experiment on steaks, stated choices overstated total WTP, but the marginal WTP for a quality change did not differ between stated and paid settings (Lusk 2004, abstract, secondary). Measured.
 - The Van Westendorp meter was biased by its hypothetical nature and its focus on minimum resistance, yet its results were comparable to BDM results (Kloss 2016, abstract, secondary). Supported with caveat.
 - The meter asks four prices and reads a range from the crossings of cumulative curves (Alletsee 2025, manual, read). Its origin is a 1976 conference paper not found online (Van Westendorp 1976, located only). Convention, untested.

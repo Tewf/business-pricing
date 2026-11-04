@@ -9,7 +9,7 @@ Step 3 of the review. For each question, the best evidence, kept apart from the 
 | Record | Holder | What it says | Grade |
 |---|---|---|---|
 | Best evidence | Schmidt 2020 | the stated figure is 21% above the real one on average, 77 studies; indirect methods overstate more than direct ones (abstract, secondary) | measured |
-| Best evidence | Miller 2011 | against real purchases, BDM and incentive-aligned conjoint pass; open-ended and conjoint may still give the right demand curve (abstract, secondary) | measured |
+| Best evidence | Miller 2011a | against real purchases, BDM and incentive-aligned conjoint pass; open-ended and conjoint may still give the right demand curve (abstract, secondary) | measured |
 | Upper bound | Murphy 2005 | a median ratio of 1.35 and a mean of 2.60, the skew coming from a few large values (working paper, read) | measured |
 | Limit | Penn 2018 | an auction did not reduce the bias much against a referendum (abstract, secondary) | measured |
 | Limit | Lusk 2004 | total WTP is overstated but the marginal WTP for a quality change is not (abstract, secondary) | measured |

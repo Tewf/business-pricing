@@ -7,7 +7,7 @@ The evidence against what the front page assumes, and the disagreements. Sources
 ## Against "only a costly act counts as evidence of payment"
 
 - An auction, a costly form, did not reduce the bias much against a referendum vote (Penn 2018, abstract, secondary). Measured.
-- Open-ended and conjoint answers were biased yet might still give the right demand curve and the right price (Miller 2011, abstract, secondary). Measured.
+- Open-ended and conjoint answers were biased yet might still give the right demand curve and the right price (Miller 2011a, abstract, secondary). Measured.
 - A steak study found the same for a quality change (Lusk 2004, abstract, secondary). Measured.
 - The meter, hypothetical and biased, gave results comparable to BDM (Kloss 2016, abstract, secondary). Supported with caveat.
 - So a paid measure is the benchmark for the level of a price, and a stated one may be enough to rank prices. The review does not claim more.

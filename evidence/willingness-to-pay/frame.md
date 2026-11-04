@@ -14,11 +14,11 @@ How much a person would pay for a good before anyone has sold it, how far a ques
 |---|---|---|
 | the quantity | **willingness to pay**, WTP; in economics the **reservation price** | Breidert 2006 |
 | a question that asks | **stated preference** methods; the **hypothetical** WTP, HWTP | Schmidt 2020 |
-| a paid answer | **incentive-compatible** elicitation, such as the **Becker-DeGroot-Marschak** mechanism, BDM, or a Vickrey auction; **real** WTP, RWTP | Miller 2011; Lusk 2004 |
+| a paid answer | **incentive-compatible** elicitation, such as the **Becker-DeGroot-Marschak** mechanism, BDM, or a Vickrey auction; **real** WTP, RWTP | Miller 2011a; Lusk 2004 |
 | the gap between the two | **hypothetical bias**, HB; the **calibration factor**, the ratio of stated to actual value | Murphy 2005 |
 | a range from four questions | the **Price Sensitivity Meter**, PSM, or Van Westendorp | Van Westendorp 1976 |
 | a curve from a price ladder | the **Gabor-Granger** method | Gabor 1966 |
-| a trade-off from choices | **choice-based conjoint**, CBC, and its **incentive-aligned** form, ICBC | Miller 2011 |
+| a trade-off from choices | **choice-based conjoint**, CBC, and its **incentive-aligned** form, ICBC | Miller 2011a |
 | the premium for a self-made good | the **"I designed it myself" effect**; **toolkits for user innovation and design**; **mass customization**; the **IKEA effect** | Franke 2010; Franke 2004; Norton 2012 |
 | a price that depends on the person | **personalised pricing**, a form of **price discrimination** | Borgesius 2017 |
 | a first number that moves the next | **anchoring**; **reference price** | Ariely 2003; Mazumdar 2005 |

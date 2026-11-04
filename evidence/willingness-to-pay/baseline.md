@@ -11,16 +11,16 @@ Step 5 of the review: the baseline the work is compared against. Evidence is in 
 3. Compare the two: the ratio of the stated mean to the paid mean, minus one (the hypothetical bias), and whether the best price of the curve is the best price of the paid demand.
 4. Report the range as stated and the paid figure as the one that counts.
 
-This is the design of Miller 2011, cut to two arms, and the practice of Kloss 2016 for the meter.
+This is the design of Miller 2011a, cut to two arms, and the practice of Kloss 2016 for the meter.
 
 ## Compared with what the review found
 
 | Item | In B1 | Fit |
 |---|---|---|
-| A paid benchmark (Miller 2011) | a BDM bid or a deposit | matches |
+| A paid benchmark (Miller 2011a) | a BDM bid or a deposit | matches |
 | The bias reported as a ratio (Schmidt 2020) | stated mean over paid mean, minus one | matches |
 | Reference size to expect (Schmidt 2020; Murphy 2005) | 21% for consumer goods, a median ratio of 1.35 | matches |
-| Stated methods kept as a range or a rank, not a price (Kloss 2016; Miller 2011) | the range is reported beside the paid figure | matches |
+| Stated methods kept as a range or a rank, not a price (Kloss 2016; Miller 2011a) | the range is reported beside the paid figure | matches |
 | A self-design arm (Franke 2010) | the same good off the shelf and self-designed, both in BDM | in part |
 | A waiting list read as intention (Jamieson 1989) | a sign-up with the price shown, not a count | in part |
 | Disclosure of a personalised price (EU 2019 Directive) | one price per good, so no disclosure is due | matches |
@@ -35,7 +35,7 @@ This is the design of Miller 2011, cut to two arms, and the practice of Kloss 20
 ## How it is measured
 
 - The hypothetical bias as a ratio, by `hypothetical_bias` in the program: stated mean over paid mean, minus one.
-- Whether the best price of the stated curve falls within the paid demand's top revenue price, the decision metric of Miller 2011.
+- Whether the best price of the stated curve falls within the paid demand's top revenue price, the decision metric of Miller 2011a.
 - The premium as the paid mean of the self-designed good over the paid mean of the same good off the shelf, minus one, with the number of bidders.
 - A repeat: the program runs on any rows, and its tests pass on a fixture without a real respondent.
 

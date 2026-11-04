@@ -14,6 +14,6 @@ digraph measures {
   CBC -> REAL [label=" overstates more than\na direct question (Schmidt 2020)", style=dashed];
   VW -> BDM [label=" comparable results\n(Kloss 2016)", style=dashed, constraint=false];
   GG -> REAL [label=" no paid comparison found", style=dashed];
-  BDM -> REAL [label=" passes the tests\n(Miller 2011)"];
-  ICBC -> REAL [label=" passes the tests\n(Miller 2011)"];
+  BDM -> REAL [label=" passes the tests\n(Miller 2011a)"];
+  ICBC -> REAL [label=" passes the tests\n(Miller 2011a)"];
 }
