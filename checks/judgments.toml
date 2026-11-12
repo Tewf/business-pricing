@@ -23,7 +23,7 @@ answer = "It stays: `checks/local` is the folder the extension contract names fo
 check = "logical-lines"
 path = "evidence/willingness-to-pay/protocol.md"
 question = "98 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "521675957b50"
+file = "6dd12a2dfd8b"
 answer = "Its role in one sentence: it records how the pool was built, from the strings to the stopping rule, so that a reader can run the search again; it has no 'and' to split on, and its tables are data, so it stays whole under `Protocol`."
 
 [[answer]]
