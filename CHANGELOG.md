@@ -7,7 +7,12 @@ A pin move is recorded here, not in decisions/.
 
 ### Changed
 
+- Pinned reader-ergonomics v1.24.3 (`722cfa4`), from v1.24.2 (`65e4247`): a SICI DOI is read whole and a server error is a warning, not an error. The links of the text move with the pin.
 - Pinned reader-ergonomics v1.24.2 (`65e4247`), from v1.21.0 (`2e5b6f0`): fixes that remove false findings in the sentence, term and figure checks, and `[defined_terms] cues`.
+
+### Fixed
+
+- The OFT1489 link in the bibliography, whose address at the National Archives answers HTTP 405 behind a human-verification wall (an AWS WAF challenge page), now points to the Internet Archive's copy of the same PDF, captured on 26 Nov. 2013 at the OFT's own address.
 
 ## [0.1.0] - 2026-11-04
 
